@@ -7,8 +7,8 @@ Työn aiheena on luoda istumäjärjestysgeneraattori, jolla on helppo luoda sits
 Ohjelmalla on vain yksi käyttäjä, istumajärjestyksen luoja.
 
 ## Toiminnot
--Istumajärjestyksen luominen
+- Istumajärjestyksen luominen
 
--Tarjoilukartan luominen
-	*Istumajärjestys tulee olla luotuna
+- Tarjoilukartan luominen
+	* Istumajärjestys tulee olla luotuna
 
