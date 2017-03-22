@@ -4,7 +4,7 @@ Työn aiheena on toteuttaa istumajärjestysgeneraattori, joka luo syötetystä i
 
 ## Dokumentaatio
 [Dokumentaatio](https://github.com/toppielt/Plassaaja/tree/master/dokumentaatio) 
-[Tuntikirjanpito](https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/tuntikirjanpito.md) 
-[Testausdokumentti]((https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/testausdokumentti.md) 
+[Tuntikirjanpito](https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/tuntikirjanpito.md)
 [Käyttöohjeet](https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/k%C3%A4ytt%C3%B6ohjeet.md)
+[Testausdokumentti]((https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/testausdokumentti.md) 
 
