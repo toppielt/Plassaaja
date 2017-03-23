@@ -12,3 +12,7 @@ Ohjelmalla on vain yksi käyttäjä, istumajärjestyksen luoja.
 - Tarjoilukartan luominen
 	* Istumajärjestys tulee olla luotuna
 
+## Luokkakaavio
+
+![Alt text](https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/PlassaajaLuokkakaavio.png)
+
