@@ -11,6 +11,8 @@
 import java.util.ArrayList;
 
 public class Henkilo {
+    
+    
 
     private String nimi;
     private String sukupuoli;
@@ -19,6 +21,10 @@ public class Henkilo {
     private String menu;
     private String juoma;
     private String erityisruokavaliot;
+    
+    public Henkilo(String nimi) {
+        this.nimi = nimi;
+    }
 
     public void setNimi(String nimi) {
         this.nimi = nimi;
