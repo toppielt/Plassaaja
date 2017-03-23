@@ -39,7 +39,7 @@ public class Lukija {
              
             while (cellIterator.hasNext()) {
                 Cell cell = cellIterator.next();
-                 
+                Henkilo henkilo = new Henkilo(cell.getStringCellValue());
                 switch (cell.getCellType()) {
                     case Cell.CELL_TYPE_STRING:
                         System.out.print(cell.getStringCellValue());
