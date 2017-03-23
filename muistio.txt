@@ -1,0 +1,9 @@
+Mitä:
+
+-Luetaan xls-dokumentteja
+-Luettavia: Nimi, Avec, Sukupuoli (M, N, Muu, Ei halua ilmoittaa), pöytäseuratoiveet, menu, erityisruokavaliot, juomat
+-Laulunjohtaja
+-Puheenjohtaja
+-Toiminnanjohtaja
+
+
