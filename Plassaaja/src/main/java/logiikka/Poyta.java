@@ -23,6 +23,12 @@ public class Poyta {
         this.paikkoja = paikkoja;
     }
     
+    public int paikkojaJaljella() {
+        int jaljella = paikkoja - paikat.size();
+        
+        return jaljella;
+    }
+    
     
     
 }

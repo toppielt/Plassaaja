@@ -11,17 +11,17 @@ package logiikka;
  */
 public class Paikka {
 
-    Poyta poyta;
+    private Poyta poyta;
 
-    int paikkaNumero;
+    private int paikkanumero;
 
-    public Paikka(Poyta poyta, int paikkaNumero) {
+    public Paikka(Poyta poyta, int paikkanumero) {
         this.poyta = poyta;
-        this.paikkaNumero = paikkaNumero;
+        this.paikkanumero = paikkanumero;
     }
 
     public boolean onkoPariton() {
-        if (paikkaNumero % 2 == 0) {
+        if (paikkanumero % 2 == 0) {
             return false;
         } else {
             return true;
@@ -30,5 +30,9 @@ public class Paikka {
 
     public Poyta getPoyta() {
         return poyta;
+    }
+
+    public int getPaikkanumero() {
+        return paikkanumero;
     }
 }
