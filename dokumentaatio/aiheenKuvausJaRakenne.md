@@ -16,3 +16,13 @@ Ohjelmalla on vain yksi käyttäjä, istumajärjestyksen luoja.
 
 ![Alt text](https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/PlassaajaLuokkakaavio.png)
 
+## Checkstyle
+[Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/checkstyle/checkstyle.html) 
+
+## PIT
+[Pit-raportti](ei ole) 
+
+
+
+
+
