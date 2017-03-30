@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 
+import logiikka.Henkilo;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -46,10 +47,63 @@ public class HenkiloTest {
     public void konstruktoriAsettaaNimen() {
 
         String vastaus = henkilo.getNimi();
-        
+
         assertEquals("Matti", vastaus);
     }
 
+    @Test
+
+    public void sukupuoliAsettuuOikein() {
+
+        henkilo.setSukupuoli("m");
+
+        String vastaus = henkilo.getSukupuoli();
+
+        assertEquals("m", vastaus);
+    }
+
+    @Test
+
+    public void avecMeneeOikein() {
+        henkilo.setAvec("Maija");
+
+        String vastaus = henkilo.getAvec();
+
+        assertEquals("Maija", vastaus);
+    }
+
+    @Test
+
+    public void menuMeneeOikein() {
+
+        henkilo.setMenu("Liha");
+
+        String vastaus = henkilo.getMenu();
+
+        assertEquals("Liha", vastaus);
+    }
+
+    @Test
+
+    public void juomaMeneeOikein() {
+        henkilo.setJuoma("valkoviini");
+
+        String vastaus = henkilo.getJuoma();
+
+        assertEquals("valkoviini", vastaus);
+
+    }
+
+    @Test
+
+    public void erityisruokavaliotOikein() {
+
+        henkilo.setErityisruokavaliot("Kalaton, sienetön");
+
+        String vastaus = henkilo.getErityisruokavaliot();
+
+        assertEquals("Kalaton, sienetön", vastaus);
+    }
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //

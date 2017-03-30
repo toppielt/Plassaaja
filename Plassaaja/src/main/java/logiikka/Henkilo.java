@@ -1,3 +1,5 @@
+package logiikka;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -16,7 +18,7 @@ public class Henkilo {
 
     private String nimi;
     private String sukupuoli;
-    private Henkilo avec;
+    private String avec;
     private ArrayList<Henkilo> poytaseura = new ArrayList<>();
     private String menu;
     private String juoma;
@@ -34,7 +36,7 @@ public class Henkilo {
         this.sukupuoli = sukupuoli;
     }
 
-    public void setAvec(Henkilo avec) {
+    public void setAvec(String avec) {
         this.avec = avec;
     }
 
@@ -48,7 +50,7 @@ public class Henkilo {
 
     }
 
-    public void setErityisRuokavaliot(String erityisruokavaliot) {
+    public void setErityisruokavaliot(String erityisruokavaliot) {
         this.erityisruokavaliot = erityisruokavaliot;
     }
 
@@ -68,7 +70,7 @@ public class Henkilo {
         return sukupuoli;
     }
 
-    public Henkilo getAvec() {
+    public String getAvec() {
         return avec;
     }
 
