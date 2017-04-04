@@ -1,4 +1,4 @@
-package logiikka;
+package plassaaja.logiikka;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -6,7 +6,8 @@ package logiikka;
  * and open the template in the editor.
  */
 
-import logiikka.Poyta;
+import plassaaja.logiikka.Paikka;
+import plassaaja.logiikka.Poyta;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -18,36 +19,34 @@ import static org.junit.Assert.*;
  *
  * @author toppielt
  */
-public class PoytaTest {
-    
-    Poyta poyta;
-    
-    public PoytaTest() {
+public class PaikkaTest {
+
+    Paikka paikka;
+
+    public PaikkaTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
-        
-        poyta = new Poyta(24);
     }
-    
+
     @After
     public void tearDown() {
     }
-    
+
     @Test
-    
-    public void alussaJaljellaKaikkiPaikat() {
-        
-        assertEquals(24, poyta.paikkojaJaljella());
+
+    public void luoPaikan() {
+        Poyta poyta = new Poyta(24);
+        paikka = new Paikka(poyta, 2);
     }
 
     // TODO add test methods here.

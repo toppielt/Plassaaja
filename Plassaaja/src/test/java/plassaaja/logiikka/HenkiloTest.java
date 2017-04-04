@@ -1,4 +1,4 @@
-package logiikka;
+package plassaaja.logiikka;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -6,7 +6,7 @@ package logiikka;
  * and open the template in the editor.
  */
 
-import logiikka.Henkilo;
+import plassaaja.logiikka.Henkilo;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
