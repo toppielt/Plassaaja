@@ -17,30 +17,29 @@ import plassaaja.logiikka.Henkilo;
 import plassaaja.logiikka.Lukija;
 
 public class Main {
-   
 
     public static void main(String[] args) throws IOException {
-       // Kayttoliittyma kayttoliittyma = new Kayttoliittyma();
-       // SwingUtilities.invokeLater(kayttoliittyma);
-       
-       Kayttoliittyma kayttis = new Kayttoliittyma();
-      kayttis.run();
-    Lukija lukija = new Lukija();
-     
-       File tiedosto = new File("plassaajaTestidata.csv");
-       
-       lukija.lueIlmoittautumiset(tiedosto);
-       
-       HashMap<String, Henkilo> ilmot = new HashMap<>();
-       
-       ilmot = lukija.getIlmoittautumiset();
-       
+        // Kayttoliittyma kayttoliittyma = new Kayttoliittyma();
+        // SwingUtilities.invokeLater(kayttoliittyma);
+
+        Kayttoliittyma kayttis = new Kayttoliittyma();
+        kayttis.run();
+        Lukija lukija = new Lukija();
+
+        File tiedosto = new File("plassaajaTestidata.csv");
+
+        lukija.lueIlmoittautumiset(tiedosto);
+
+        HashMap<String, Henkilo> ilmot = new HashMap<>();
+
+        ilmot = lukija.getIlmoittautumiset();
+
         System.out.println(ilmot.size());
-        
-       Henkilo aleksi = ilmot.get("Arto Aniluoto");
-        
-        System.out.println(aleksi.getErityisruokavaliot()); 
+
+        Henkilo aleksi = ilmot.get("Arto Aniluoto");
+
+        System.out.println(aleksi.getErityisruokavaliot());
         System.out.println(ilmot.keySet());
-       
+
     }
 }
