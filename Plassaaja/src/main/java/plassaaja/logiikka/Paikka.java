@@ -19,7 +19,12 @@ public class Paikka {
         this.poyta = poyta;
         this.paikkanumero = paikkanumero;
     }
-
+    
+    /**
+     * parilliset alhaalla, parittomat alhaalla
+     * @return palautta true jos paikkanumero pariton
+     */
+    
     public boolean onkoPariton() {
         if (paikkanumero % 2 == 0) {
             return false;
@@ -27,11 +32,21 @@ public class Paikka {
             return true;
         }
     }
+    
+    /**
+     * 
+     * @return palauttaa mihin pöytään paikka kuuluu 
+     */
 
     public Poyta getPoyta() {
         return poyta;
     }
-
+    
+    /**
+     * 
+     * @return palauttaa paikkanumeron 
+     */
+    
     public int getPaikkanumero() {
         return paikkanumero;
     }

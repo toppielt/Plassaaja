@@ -21,7 +21,7 @@ import static org.junit.Assert.*;
 public class HenkiloTest {
 
     Henkilo henkilo;
-
+    
     public HenkiloTest() {
     }
 
