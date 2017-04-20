@@ -20,7 +20,7 @@ Ohjelmalla on vain yksi käyttäjä, istumajärjestyksen luoja.
 [Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/checkstyle/checkstyle.html) 
 
 ## PIT
-[Pit-raportti](ei ole) 
+[Pit-raportti](https://htmlpreview.github.io/?https://github.com/toppielt/Plassaaja/blob/master/dokumentaatio/pit/201704202159/index.html) 
 
 
 
